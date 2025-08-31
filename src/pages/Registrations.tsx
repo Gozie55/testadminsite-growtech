@@ -108,7 +108,7 @@ const Registrations: React.FC = () => {
     <div className="p-6 flex-1 overflow-y-auto">
       <h1 className="text-2xl font-bold mb-4">All Registrations</h1>
 
-      <div className="overflow-x-auto">
+      {/* <div className="overflow-x-auto">
         <table className="min-w-full bg-white rounded-xl shadow-lg border-collapse">
           <thead className="bg-gray-100">
             <tr>
@@ -152,7 +152,7 @@ const Registrations: React.FC = () => {
             ))}
           </tbody>
         </table>
-      </div>
+      </div> */}
     </div>
   );
 };

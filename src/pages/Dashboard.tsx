@@ -190,7 +190,7 @@ const Dashboard: React.FC = () => {
       </div>
 
       {/* Recent Registrations */}
-      <div className="overflow-x-auto bg-white rounded-xl shadow-lg p-6">
+      {/*<div className="overflow-x-auto bg-white rounded-xl shadow-lg p-6">
         <h2 className="text-xl font-semibold mb-4">Recent Registrations</h2>
         <table className="min-w-full border-collapse">
           <thead className="bg-gray-100">
@@ -246,7 +246,7 @@ const Dashboard: React.FC = () => {
             Export Data
           </Link>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 };
