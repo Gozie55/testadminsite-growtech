@@ -7,3 +7,9 @@
   from = "/api/*"
   to = "https://api-growtechafrica.blacksillicon.com/api/:splat"
   status = 200
+
+# Redirect all other paths to index.html (React Router fix)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
